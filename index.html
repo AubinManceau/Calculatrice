@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="conteneur">
+        <div class="calculatrice">
+            <form>
+                <div>
+                    <div class="affichage_calcul">
+                        <input type="text" name="affichage_calcul" id="affichage_calcul">
+                    </div>
+                    <div class="affichage">
+                        <input type="text" name="affichage" id="affichage">
+                    </div>
+                </div>  
+                <div>
+                    <input type="button" value="AC" id="AC" class="operateur supprimer">
+                    <input type="button" value="DEL" id="DEL" class="operateur">
+                    <input type="button" value="." id="virgule" class="operateur">
+                    <input type="button" value="/" id="diviser" class="operateur">
+                </div>
+                <div>
+                    <input type="button" value="7" id="sept">
+                    <input type="button" value="8" id="huit">
+                    <input type="button" value="9" id="neuf">
+                    <input type="button" value="*" id="multiplier" class="operateur">
+                </div>
+                <div>
+                    <input type="button" value="4" id="quatre" >
+                    <input type="button" value="5" id="cinq">
+                    <input type="button" value="6" id="six">
+                    <input type="button" value="-" id="moins" class="operateur">
+                </div>
+                <div>
+                    <input type="button" value="1" id="un">
+                    <input type="button" value="2" id="deux">
+                    <input type="button" value="3" id="trois">
+                    <input type="button" value="+" id="plus" class="operateur">
+                </div>
+                <div>
+                    <input type="button" value="00" id="cent">
+                    <input type="button" value="0" id="zero">
+                    <input type="button" value="=" class="egal operateur" id="egal">
+                </div>
+            </form>
+        </div>
+    </div>    
+</body>
+</html>
